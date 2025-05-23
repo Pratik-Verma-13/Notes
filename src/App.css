@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-note-block{
+    display: flex;
+    /* padding: 20px 40px; */
+    height: 100vh;
+    /* background-color: aqua; */
+    transition: all 0.3s ease;
+}
+
+.edit-window{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* padding: 100px; */
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
